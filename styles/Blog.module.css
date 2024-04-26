@@ -1,0 +1,40 @@
+
+
+.blog{
+
+    margin-left: 150px;
+    margin-right: 150px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-bottom: 20px;
+    background-color: whitesmoke;
+
+
+
+    box-shadow: 5px 4px 3px honeydew;
+    border-radius: 15px;
+}
+
+.btncontainer{
+    display: flex;
+justify-content: center;
+margin-bottom: 20px;
+}
+.btn {
+    background-color: #007bff; /* Blue background color */
+    color: white; /* White text color */
+    font-size: 18px;
+    padding: 15px 20px; /* Padding for the button */
+    border: none; /* Remove border */
+    border-radius: 12px; /* Add border radius */
+    cursor: pointer; /* Add cursor pointer */
+  }
+  
+  .btn:hover {
+    background-color: #2100b3; /* Darker blue background color on hover */
+  }
+
+
+  .bloghead:hover{
+      font-size: 30px;
+  }

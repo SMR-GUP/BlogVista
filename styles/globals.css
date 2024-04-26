@@ -1,4 +1,4 @@
-:root {
+/* :root {
   --max-width: 1100px;
   --border-radius: 12px;
   --font-mono: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono",
@@ -104,4 +104,12 @@ a {
   html {
     color-scheme: dark;
   }
+} */
+
+
+body {
+ /* background-image:url('https://img.freepik.com/free-photo/dark-grunge-texture_1048-4055.jpg?size=626&ext=jpg&ga=GA1.1.553209589.1714089600&semt=aishttps://t3.ftcdn.net/jpg/01/62/47/66/360_F_162476658_ZoIJ9RKaoch0eTLQck8yxQMEuLsPkQ19.jpg');
+ background-size:cover;
+ background-repeat: no-repeat; */
+ background-color: rgb(36, 35, 35);
 }

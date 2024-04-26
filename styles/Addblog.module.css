@@ -1,0 +1,66 @@
+/* components/Addblog.module.css */
+
+.formContainer {
+    max-width: 650px;
+    max-height: 1200px;
+    margin: 0 auto;
+    background-color: #f0f8ff;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px white;
+    border-radius: 15px;
+  }
+  
+  .formContainer h1 {
+    margin-bottom: 20px;
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  .formContainer label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 20px;
+    padding-left: 10px;
+  }
+  
+  .formContainer input[type="text"],
+  .formContainer textarea {
+    width: 97%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #070707;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 18px; /* Increase font size */
+    margin-left: 10px;
+
+  }
+
+  .formContainer textarea {
+    width: 97%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical; /* Allow vertical resizing */
+    min-height: 200px; /* Set minimum height */
+    font-size: 16px; /* Increase font size */
+  }
+  
+  .formContainer button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 97%;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .formContainer button:hover {
+    background-color: #0056b3;
+  }
+  
